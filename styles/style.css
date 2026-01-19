@@ -95,7 +95,68 @@ height: 32px;
 .about-list p{
     color: white;
 }
+/* Techwave Section */
 
+.features {
+background: rgba(53, 17, 101, 0.4);
+  padding: 80px 5%;
+}
+.features h2{
+    font-size: 48px ;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+
+.feature-card {
+  background: linear-gradient(180deg, #2b0a4d, #1b0633);
+  border-radius: 20px;
+  padding: 30px;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+
+}
+
+
+.feature-card.large {
+  grid-row: span 2;
+}
+
+.feature-card.wide {
+  grid-column: span 2;
+}
+
+
+.icon {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+
+.feature-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #cfc3e8;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+ 
+
+   
 
 
 
@@ -156,6 +217,7 @@ height: 32px;
     width: 100%;
    
 }
+/* techwave section */
 /* medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
     
