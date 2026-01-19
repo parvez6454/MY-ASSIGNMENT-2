@@ -151,22 +151,38 @@ background: rgba(53, 17, 101, 0.4);
   line-height: 1.6;
   color: #cfc3e8;
 }
+/* Videos Section */
+#video{
+    max-width: 1440px;
+    padding: 120px 50px;
+    margin: 0 auto;
+}
+#video h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
 
-/* Responsive */
-@media (max-width: 900px) {
- 
+}
 
+.video-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
    
-
-
-
-
-
-
-
-
-
-
+}
+.video-list h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-top: 24px;
+}
+.video-list p{
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
 
 
 
@@ -218,6 +234,21 @@ background: rgba(53, 17, 101, 0.4);
    
 }
 /* techwave section */
+{
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card.large,
+  .feature-card.wide {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  /* Video Section */
+  .video-list{
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
 /* medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
     
