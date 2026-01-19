@@ -183,6 +183,48 @@ background: rgba(53, 17, 101, 0.4);
     margin-top: 12px;
     margin-bottom: 12px;
 }
+/* Host Section */
+#host{
+    padding: 20px 200px;
+    
+}
+#host h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.host-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: rgba(83, 60, 114, 1);
+
+}
+.host-container h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 16px;
+    text-align: left;
+}
+.host-container p{
+    color: white;
+    margin-bottom: 16px;
+    text-align: left;
+}
+   .social-icon .icon-1{
+    /* display: inline-block;
+    align-items: left; */
+    border: 1px solid rgba(83, 60, 114, 1); 
+    border-radius: 50%;
+   
+
+
+   
+}
 
 
 
@@ -234,7 +276,7 @@ background: rgba(53, 17, 101, 0.4);
    
 }
 /* techwave section */
-{
+
   .features-grid {
     grid-template-columns: 1fr;
   }
@@ -248,6 +290,12 @@ background: rgba(53, 17, 101, 0.4);
   .video-list{
     grid-template-columns: 1fr;
     gap: 20px;
+}
+/* Host Section */
+.host-container{
+    display: flex;
+    flex-direction: column;
+
 }
 /* medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
