@@ -118,7 +118,20 @@ height: 32px;
 
 
 @media (max-width: 576px) {
- 
+  .logo {
+    font-size: 36px;
+  }
+
+  .platforms {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .techwave-footer {
+    padding: 60px 15px;
+  }
+}
+
 
 
 
@@ -348,19 +361,6 @@ background: rgba(53, 17, 101, 0.4);
     text-align: center; 
     width: 100%;
    
-}
- .logo {
-    font-size: 36px;
-  }
-
-  .platforms {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .techwave-footer {
-    padding: 60px 15px;
-  }
 }
 /* techwave section */
 
